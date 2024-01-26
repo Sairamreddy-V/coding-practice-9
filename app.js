@@ -119,3 +119,4 @@ app.put('/change-password', async (requset, response) => {
     response.send('Invalid current password')
   }
 })
+module.exports=add
